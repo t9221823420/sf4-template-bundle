@@ -1,0 +1,35 @@
+{
+  "name": "yozh/sf4-template-bundle",
+  "description": "Description of Bundle",
+  "type": "symfony-bundle",
+  "keywords": ["sf4","extension","template-bundle"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Kryazhev",
+      "email": "t9221823420@gmail.com",
+      "homepage": "https://github.com/t9221823420"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.1.4",
+    "ext-ctype": "*",
+    "ext-iconv": "*",
+    "symfony/console": "4.3.*",
+    "symfony/dotenv": "4.3.*",
+    "symfony/flex": "^1.1",
+    "symfony/framework-bundle": "4.3.*",
+    "symfony/yaml": "4.3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "yozh\\template-bundle\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "yozh\\template-bundle\\Tests\\": "tests"
+    }
+  }
+}
