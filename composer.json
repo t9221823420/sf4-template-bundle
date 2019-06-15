@@ -24,12 +24,12 @@
   },
   "autoload": {
     "psr-4": {
-      "yozh\\template-bundle\\": "src"
+      "yozh\\TemplateBundle\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "yozh\\template-bundle\\Tests\\": "tests"
+      "yozh\\TemplateBundle\\Tests\\": "tests/"
     }
   }
 }
